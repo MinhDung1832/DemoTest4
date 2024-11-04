@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.Polaris-TextField__Backdrop {
+  border-radius: 4px !important;
+}
+
+.card-option{
+  margin-top: 1rem;
+}
+.block-option .Polaris-ShadowBevel {
+  --pc-shadow-bevel-border-radius-xs: 0px !important;
+}
+.tag-option .Polaris-Box{
+  background: #ff4c0b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+}
+.btn-add .Polaris-Button{
+  background: #ff4c0b;
+  --pc-button-bg_hover:#ff4c0b !important;
+  --pc-button-icon-fill_hover:#fff;
+  --pc-button-color:#fff;
+  --pc-button-icon-fill:#fff;
+  padding: 10px 0px;
+  box-shadow: none;
+  --pc-button-box-shadow_hover:none;
+  color: #fff;
+  border: none !important;
+  margin-top: 1rem;
+  border-radius: 4px !important;
+}
+.custom-select {
+  border-radius: 4px;
+}
